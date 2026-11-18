@@ -1,0 +1,15 @@
+# Python >= 3.10
+# IMPORTANTE (GPU NVIDIA): instale PyTorch con CUDA ANTES que el resto, p. ej.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# (elija la versión de CUDA en https://pytorch.org/get-started/locally/).
+# Si se instala primero ultralytics, pip puede traer la versión de PyTorch solo-CPU.
+torch>=2.1
+ultralytics>=8.1          # YOLOv8-Pose (descarga yolov8n-pose.pt la primera vez)
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7
+joblib>=1.3
+pytest>=7.0

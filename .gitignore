@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Proyecto: datos con licencia y artefactos generados (no se versionan) ---
+data/*
+!data/README.md
+results/models/
+results/demo/
+results_synthetic/
+*.pt
+*.joblib
+yolov8*-pose.pt
